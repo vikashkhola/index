@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style3.css">
+
+    <!-- fontawesomelink -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <a class="navbar-brand" href="">
+                    <i class="fa-solid fa-code"></i>
+                </a>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a class="border mx-2" href="#signin">
+                    <i class="fa-sharp fa-solid fa-right-to-bracket"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- carsoule-section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../project2/img/coading2.webp" style="height:600px;" class="d-block w-100 img-fluid"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5>LEARN JAVA HERE</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="btn btn-primary">java</button>
+                    <button class="btn btn-danger">full-stack</button>
+                    <button class="btn btn-success">python</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../project2/img/laptop2.webp" style="height:600px;" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>LEARN FULL-STACK HERE</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <button class="btn btn-primary">java</button>
+                    <button class="btn btn-danger">full-stack</button>
+                    <button class="btn btn-success">python</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../project2/img/work.avif" style="height:600px;" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>LEARN JAVA HERE</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button class="btn btn-primary">java</button>
+                    <button class="btn btn-danger">full-stack</button>
+                    <button class="btn btn-success">python</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- about section -->
+    <div id="courses" class="container mt-4">
+        <div class="row">
+            <div class="col-lg-4 md-6 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../project2/img/laptop.avif" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">java</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-danger">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 md-6 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../project2/img/coading.jpeg" class="card-img-top img-fluid " alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title text-warning ">full-stack</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-warning">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 md-6 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../project2/img/coading2.webp" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">python</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-success">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-4 bg-secondary">
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 mb-md-0 mb-4 ">
+                <h2 class="text-warning">
+                    <span id="count1"></span>250+
+                </h2>
+                <h4 class="text-white ">Savings</h4>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-md-0 mb-4 ">
+                <h2 class="text-warning">
+                    <span id="count2"></span>195+
+                </h2>
+                <h4 class="text-white ">lectures</h4>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-md-0 mb-4 ">
+                <h2 class="text-warning">
+                    <span id="count3"></span>255+
+                </h2>
+                <h4 class="text-white ">hours</h4>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-md-0 mb-4 ">
+                <h2 class="text-warning">
+                    <span id="count4"></span>230+
+                </h2>
+                <h4 class="text-white ">photos</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- more-section -->
+    <div id="about" class="container mt-5">
+        <div class=" row row-align-item-center">
+            <div class="col-lg-6 col-md-12  mb-lg-0 mb-5">
+                <img src="../project2/img/coading3.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 ps-lg-5 ">
+                <h2>we provide ourselve on making easiest way for learning programing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quae ut quas
+                    impedit eum accusantium dicta molestiae!</p>
+                <button class="btn btn-success mt-4">learn more</button>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class=" row row-align-item-center">
+
+                <div class="col-lg-6 col-md-12 ps-lg-5  ">
+                    <h2>we provide ourselve on making easiest way for learning programing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quae ut quas
+                        impedit eum accusantium dicta molestiae!</p>
+                    <button class="btn btn-success mt-4">learn more</button>
+                </div>
+                <div class="col-lg-6 col-md-12  mb-lg-0 mb-5">
+                    <img src="../project2/img/coading.jpeg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form sectionn -->
+    <form id="signin" action=".php">
+        <div class="container mt-4 bg-light">
+            <div class="mb-3 row ">
+                <label for="Email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="staticEmail" value="email@example.com">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <button class="btn btn-primary mt-4 d-inline-block">sign in</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="">
+            <div class="container mt-4 bg-secondary text-center">
+                <h3 class="text-warning">ABOUT US</h3>
+                <p class="text-white"> copyright&copy; <a href=""> www.coadingworld.com </a> All right reserved!
+                    <br><span>
+                        Made by Vikash Khola
+                    </span></p>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
